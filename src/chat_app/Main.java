@@ -15,7 +15,6 @@ public class Main
     
     static String firstname;
     static String lastname;
-    static boolean Userlogin;
     
     public static void main(String[] args) 
 	{
@@ -191,7 +190,6 @@ public class Main
         {
             System.out.println("LOGIN SUCCESSFULL");
         }
-        if(Userlogin=true)
         {
             System.out.println("Welcome back " +firstname+ " " +lastname+ " it is greet to see you  "); 
         }
